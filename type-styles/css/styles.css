@@ -1,0 +1,87 @@
+html {
+    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Rig sans', sans-serif;
+    font-size: 22pt;
+  }
+
+  body{
+   margin: 10%;
+  }
+
+  h1{
+    color: steelblue;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    text-indent: -1rem;
+    font-family: 'Rig sans', sans-serif;
+  }
+
+  h2{
+    color: lightseagreen;
+    font-size: 15pt;
+    letter-spacing: -0.02em;
+    text-indent: -1rem;
+    font-family: 'Cascadia Code', sans-serif;
+    font-style: normal;
+  }
+
+  p{
+    font-size: 18pt;
+    line-height: 1.4;
+  }
+
+  a{
+    color: steelblue;
+  }
+
+  bold{
+    font-weight: bold;
+  }
+
+  ital{
+    font-style: italic;
+  }
+
+  smallspace{
+    letter-spacing: -.05em;
+  }
+
+  under{
+    text-decoration: underline;
+  }
+
+  through{
+    text-decoration: line-through;
+  }
+
+  over{
+    text-decoration: overline;
+  }
+
+  bigspace{
+    letter-spacing: .5em;
+  }
+
+  up{
+    text-transform: uppercase;
+  }
+
+  low{
+    text-transform: lowercase;
+  }
+
+  cap{
+    text-transform: capitalize
+  }
+
+  article{
+    margin: 4rem 0;
+    margin-left: 200px;
+  }
+
+  section{
+    margin: 2.5em 0;
+  }
+
+
