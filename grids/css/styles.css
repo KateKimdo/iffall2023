@@ -1,0 +1,33 @@
+.grid img {
+    width: 150px;
+  }
+
+  .grid {
+    padding: 0;
+  }
+  
+  .grid li {
+    display: block;
+  }
+
+  .using-floats li {
+    float: left;
+  }
+
+  .using-floats::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .grid li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Adjust the width of the img within li */
+  .grid li img {
+    width: 90%;
+  }
