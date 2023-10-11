@@ -1,0 +1,134 @@
+html {
+    color: black;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 22pt;
+  }
+
+  header{
+    text-align: center;
+    background-image: url(../img/chipotle.jpg);
+    background-size: cover;
+    background-position: center 40%;
+    color: black;
+  }
+
+ section{
+    font-size: 35px;
+    padding-top: 44px;  
+    padding-bottom: 48px;
+  }
+
+  section.section1{
+    background-color: rgba(9,35,58,255);
+  }
+
+  section.section2{
+    background-color: rgba(240,240,240,255);
+    height: 598px;
+  }  
+
+  section.section3{
+    background-color: rgba(188,1,20,255);
+    text-align: center;
+    height: 318px;
+  } 
+
+section.section4{
+    background-color: rgba(51,51,51,255);
+  }
+
+  .portrait {
+    border: 1px solid white;
+    float: right;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 36px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .section2 img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin-right: .4rem;
+
+  }
+
+  li {
+    list-style-type: none;  
+    display: block;
+    float: left;
+    width: 50%;
+    padding-bottom: 24px;
+  }
+
+  .section2 h3  {
+    color: black;
+}
+
+  .section2 li p {
+    width: 90%;
+    color: black;
+}
+
+  h1{
+    font-size: 80px;
+  }
+
+  h2{
+    font-size: 30px;
+    line-height: 1.1;
+  }
+
+  h3{
+    color: white;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  h4{
+    font-size: 20px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 7px;
+  }
+
+  h5{
+    font-size: 26px;
+    line-height: 1.4;
+    font-weight: lighter;
+  }
+
+  .centered-text {
+    color: white;
+    text-align: center;
+    width: 715px;
+    margin: 0 auto;
+}
+
+
+  p{
+    color: white;
+    font-size: 18px;
+    line-height: 24.5px;
+  }
+  
+  .column_container {
+    width: 959px;
+    margin: auto;
+  }
+
+  header .column_container{
+    padding-top: 152px;  
+    padding-bottom: 182px;
+}
+
+  h1, h2, h3, p{
+    margin: -0.4px;
+   }
+
+  
