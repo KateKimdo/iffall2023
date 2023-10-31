@@ -1,0 +1,453 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*spotify----------------------*/
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+/*amazon----------------------*/
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+/*twitter----------------------*/
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+/*indiegogo----------------------*/
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+/*cartoon network----------------------*/
+a#btn_cn {
+    display: inline-block;
+    height: 90px;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 90px;
+    background-color: #fff;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_cn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/*nike----------------------*/
+a#btn_nike {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #1d1d1d;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bolder;
+    text-decoration: none;
+    letter-spacing: 7px;
+    white-space: pre-line;
+    
+    transition: letter-spacing 0.5s ease;  
+}
+
+a#btn_nike:hover {
+    letter-spacing: -2px;
+}
+
+/*lyft----------------------*/
+a#btn_lyft {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: -30px;
+    padding: 10px 40px 10px 40px;
+    background-color: #ff00bf;
+    border: 2px solid #ff00bf;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_lyft:hover{
+    background-color: #fff;
+    border: 2px solid #ff00bf;
+    color: #ff00bf
+}
+
+/*coca cola----------------------*/
+a#btn_cocacola {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 90px;
+    padding: 10px 15px 0px 15px;
+    color: #fe001a;
+    font-size: 70px;
+    font-family: 'Coca Cola ii', sans-serif;
+    text-decoration: none;
+    transition: all .5s;
+    letter-spacing: 1.1px;
+}
+
+a#btn_cocacola:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fe001a, 0 0 20px #fe001a, 0 0 30px #fe001a;
+}
+
+/*instagram----------------------*/
+a#btn_instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    margin-top: 70px;
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: 'proxima-nova', sans-serif;
+    text-decoration: none;
+    border: none;
+    transition: color 0.5s; 
+}
+
+a#btn_instagram span {
+   opacity: 0;
+   transition: opacity 0.3s, font-size 0.3s;  /* Added transitions */
+}
+
+a#btn_instagram .fa-instagram {
+    font-size: 90px;      
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, 
+                                #feda75 0%, 
+                                #fa7e1e 25%, 
+                                #d62976 50%, 
+                                #962fbf 75%, 
+                                #4f5bd5 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: font-size 0.3s;  /* Added transition */
+}
+
+a#btn_instagram:hover .fa-instagram {
+    font-size: 60px;
+}
+
+a#btn_instagram:hover span {
+    opacity: 1;
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #d62976;
+}
+
+
+/*tesla----------------------*/
+a#btn_tesla {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px 15px 0px 15px;
+    transition: all .5s;
+}
+
+a#btn_tesla img{
+    width: 50%;
+}
+
+a#btn_tesla:hover {
+    transform: rotate(360deg);
+}
+
+/*Exploding Kittens----------------------*/
+a#btn_explode {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 90px;
+    padding: 8px 16px;
+    background-color: red;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    white-space: pre-line;
+    transition: all 0.5s;
+}
+
+@keyframes vibrate {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-2px); }
+    50% { transform: translateY(2px); }
+    75% { transform: translateY(-2px); }
+    100% { transform: translateY(2px); }
+}
+
+a#btn_explode:hover {
+    border: none;      /* Remove border */
+    font-size: 30px;   /* Increase font size */
+    animation: vibrate 0.1s infinite;  /* Apply vibration effect */
+}
+
+/*apple----------------------*/
+a#btn_apple {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 5px;
+    padding: 8px 16px;
+    transition: all 0.3s ease; 
+}
+
+a#btn_apple .fa-apple {
+    font-size: 90px;
+    color: #000;  
+    transition: font-size 0.3s ease, margin-top 0.3s ease, text-shadow 0.3s ease; 
+}
+
+a#btn_apple:hover .fa-apple {
+    font-size: 40px;
+    margin-top: 30px;
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
+}
+
+/*electra----------------------*/
+a#btn_electra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    margin-top: 90px;
+    padding: 10px 20px; 
+    background-color: #fff;
+    color: #2596be;
+    font-family: Serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 4px;
+    white-space: pre-line;
+    transition: letter-spacing 0.5s ease;
+    border: 2px solid #2596be; /* Bounding box */
+    overflow: hidden; 
+}
+
+a#btn_electra .fa-bicycle {
+    transition: transform 0.3s ease; /* Animate the bicycle icon */
+}
+
+a#btn_electra:hover .fa-bicycle {
+    transform: translateX(420%);
+    color: #fff;
+    background-color: #2596be;
+}
+
+a#btn_electra:hover{
+    background-color: #2596be;
+}
+
+/*botanical garden----------------------*/
+a#btn_garden {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: center;
+    transition: margin-top 275ms ease; 
+}
+
+a#btn_garden .fa-pagelines {
+    font-size: 100px;
+    color: green;
+    display: block;
+    opacity: 1;
+    transition: opacity 275ms ease;
+}
+
+a#btn_garden span {
+    opacity: 0;
+    display: block;
+    position: relative;
+    color: #036A36;
+    font-size: 30px;
+    transition: opacity 275ms ease;
+}
+
+a#btn_garden:hover {
+    background-position: 0 100%;
+    margin-top: -15px;
+}
+
+a#btn_garden:hover .fa-pagelines {
+    opacity: 0;
+}
+
+a#btn_garden:hover span {
+    opacity: 1;
+}
+
+
+
+
