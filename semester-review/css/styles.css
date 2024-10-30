@@ -9,7 +9,7 @@ body {
     padding-top: 20px;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
-	background-color:#FCF3CF;
+	background-color:#F5F8FD;
     background-size: cover;
     content: cover;
 }
@@ -22,41 +22,41 @@ h1 {
     font-size: 3rem;
     line-height: 8px;
     padding-top: 40px;
-	font-family: 'Righteous', sans-serif;
-	color: #D68910 ;
+	font-family: 'inter', sans-serif;
+	color: #04CA95;
 }
 
 h3 {
     font-size: 1.6rem;
     line-height: 8px;
     padding-top: 20px;
-	font-family: 'Righteous', sans-serif;
-	color:#D68910 ;
+	font-family: 'inter', sans-serif;
+	color:#5B7BFF ;
 }
 
 h2 {
     font-size: 1.6rem;
-    color: #f1C40F;
+    color: #04CA95;
     line-height: 4px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'inter', sans-serif;
 	padding-top: 20px;
 	margin-left: 25px;
+    text-decoration: underline;
 
 }
 
 h2:hover {
-	color: #D68910 ;
+	color: #5B7BFF ;
 }
 
 iframe {
-    border: 1px solid black;
+    border-radius: 18px;
     width: 1940px;
     height: auto;
-    transform: scale(1);
 }
 
 .mobile {
-    border: 1px solid black;
+    border: 1px solid #04CA95;
     width: 70vw;
     height: 600px;
     transform: scale(.9);
@@ -64,7 +64,7 @@ iframe {
 }
 
 .desktop {
-    border: 1px solid black;
+    border: 1px solid #04CA95;
     width: 25vw;
     height: 600px;
     transform: scale(.9);
